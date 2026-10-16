@@ -287,10 +287,10 @@ public class App {
     System.out.printf("Command\t\tDescription\n");
     System.out.printf("-------\t\t---------------------------------------\n");
     printMenuCommand('1', "List all the pharoahs");
-    printMenuCommand('2', "Display a specific Egyptian pharaoh");
-    printMenuCommand('3', "List all the pyramids and their contributors");
-    printMenuCommand('4', "Display a specific pyramid");
-    printMenuCommand('5', "Report requested pyramids without duplicates");
+    printMenuCommand('2', "Displays a specific Egyptian pharaoh");
+    printMenuCommand('3', "List all the pyramids");
+    printMenuCommand('4', "Displays a specific pyramid");
+    printMenuCommand('5', "Displays a list of requested pyramids.");
     printMenuCommand('q', "Quit");
     printMenuLine();
   }
